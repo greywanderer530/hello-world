@@ -1,0 +1,13 @@
+Here’s a customized summary for your C program:
+
+
+---
+
+Summary: Threaded Array Summation with POSIX Threads and Semaphores
+
+This C program demonstrates the use of POSIX threads and semaphores to perform parallel computation on a large array. The task is to sum 1 billion elements, and the array is divided into four equal parts. Four threads are created, with each thread responsible for summing one-quarter of the array. The results are then combined into a shared variable, overall_sum. Since multiple threads concurrently update overall_sum, a binary semaphore is used to ensure safe updates by locking the shared variable during the update operation, preventing race conditions. The program showcases the advantage of parallelism in multi-threaded applications, improving computation time, while maintaining the integrity of shared data with the help of semaphores.
+
+
+---
+
+Save this content in a plain text file named summary.txt, and you’re ready to submit it!
